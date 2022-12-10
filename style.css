@@ -1,0 +1,84 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+  font-family: "Poppins", "sans-serif";
+}
+.navbar-container{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.navbar-container div img{
+  height: 30%;
+  margin-top: 47px;
+  margin-left: 80px;
+}
+.list{
+  display:flex;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 13px;
+  color:rgb(178, 178, 178);
+}
+.grow-list{
+  margin-top: 37px;
+  margin-left:-430px;
+}
+ /*.list-item{
+  
+}  */
+.nav-button{
+  border-radius: 12px;
+  background-color: #5959a6;
+  border: 0;
+  color: white;
+  padding: 15px 25px;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 400;
+
+}
+.button-group{
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.banner-container{
+  display: flex;
+}
+.heading-text{
+  font-size:53px;
+  margin-top: 105px;
+  line-height: 63px;
+  margin-bottom: 20px;
+  font-weight:600;
+  color: #3b3456;
+}
+.banner-container div img{
+  margin-right: -8px;
+  width:710px;
+  margin-top: 20px;
+  margin-bottom: 125px;
+}
+.description{
+  font-size: 14px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  color: rgb(168, 166, 166);
+} 
+.banner-container div{
+  margin-left: 85px;
+}
+.nav-button.btn{
+  width: 60%;
+  height: 60px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+.banner-container div h1.heading-text span{
+  color: #5a5ca8;
+}
+.grow-list>.list>li:nth-child(1){
+  color:black;
+  font-weight: 430;
+}
